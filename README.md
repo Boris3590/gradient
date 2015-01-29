@@ -1,10 +1,3 @@
-# gradient
-Gradient js
-
-/**
- * Градиент
- * rgb(100, 150, 200)
- */
 var r1 = 100,
 	g1 = 150,
 	b1 = 220,
@@ -21,7 +14,7 @@ for (i = 0; i < step; i++){
  b = Math.round(b1 + i*(b2 - b1)/step);
  document.write("<div style='background:rgb("+r+","+g+","+b+");height: 10px'></div>");
 }	
-//vim
+
 	
 	
 	
